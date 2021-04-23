@@ -12,6 +12,7 @@ public class SpringSecurityInAuthApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSecurityInAuthApplication.class, args);
+		log.info("SpringSecurityIn-Memory Authentication Application :: main()");
 		log.info("SpringSecurityInAuthApplication :: main()");
 	}
 
